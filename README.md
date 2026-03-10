@@ -6,10 +6,11 @@
 ![Node](https://img.shields.io/badge/Node.js-20+-green)
 ![Tests](https://img.shields.io/badge/Tests-79+-brightgreen)
 
-Enterprise-grade **end-to-end test automation framework** for  
-https://www.saucedemo.com built with **Playwright + TypeScript**.
+Playwright Framework — SauceDemo E2E Tests
 
-Designed with **clean architecture, strong typing, CI/CD integration, and scalable test design**.
+A Playwright + TypeScript framework demonstrating E2E test automation for SauceDemo.
+Implements Page Object Model with separated locator maps, custom fixtures,
+cross-browser support, and a CI/CD pipeline via GitHub Actions.
 
 Repository: https://github.com/BrownBear9208/PlaywrightFramework
 
