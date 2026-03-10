@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["PlaywrightTests/pages/*"],
+      "@maps/*": ["PlaywrightTests/PageMaps/*"],
+      "@data/*": ["PlaywrightTests/data/*"],
+      "@fixtures/*": ["PlaywrightTests/fixtures/*"]
+    }
+  },
+  "include": ["PlaywrightTests/**/*.ts", "playwright.config.ts"],
+  "exclude": ["node_modules", "dist", "test-results", "playwright-report"]
+}
